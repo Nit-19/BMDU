@@ -52,3 +52,23 @@
 .graphCard{
   padding: 20px;
 }
+
+.collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.show {
+  transition: max-height 0.3s ease-out;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-out;
+}
+
+.rotate0 {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-out;
+}
